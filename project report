@@ -1,0 +1,101 @@
+Perfect 👍 here’s a ready-to-use sample README.md for your GitHub repository:
+
+
+---
+
+🌊 Wetland Monitoring using NDWI (2019–2024)
+
+📌 Project Overview
+
+This project analyzes wetland changes in Loktak Lake, Manipur (India) using Normalized Difference Water Index (NDWI) derived from Landsat-8 satellite imagery. Seasonal comparisons (Summer & Monsoon) were performed between 2019–2024 to study water spread dynamics.
+
+The workflow includes:
+
+Preprocessing Landsat bands (Green & NIR).
+
+Computing NDWI = (Green – NIR) / (Green + NIR).
+
+Applying a fixed threshold to generate water masks.
+
+Comparing seasonal and temporal changes in wetland area.
+
+Generating NDWI maps, water masks, and time-series plots.
+
+
+
+---
+
+🛠️ Tools & Technologies
+
+MATLAB (for image processing & visualization)
+
+Landsat-8 Surface Reflectance data (USGS Earth Explorer)
+
+NDWI (McFeeters, 1996) for water detection
+
+
+
+---
+
+📊 Results
+
+Seasonal maps of wetland extent (Summer vs Monsoon).
+
+Year-wise wetland area comparison (2019–2024).
+
+NDWI difference maps showing water spread changes.
+
+Time-series trend of wetland extent.
+
+
+
+---
+
+👩‍💻 Roles & Responsibilities (Keerthi’s contribution)
+
+Processed Landsat imagery and implemented NDWI calculation in MATLAB.
+
+Developed scripts for thresholding and water mask extraction.
+
+Created wetland area tables, bar charts, and time-series plots.
+
+Documented project workflow and analysis.
+
+
+
+---
+
+📂 Repository Structure
+
+Wetland-NDWI-Monitoring/
+│── code/                # MATLAB scripts
+│── outputs/             # NDWI maps, water masks, plots
+│── report/              # Project notes/report (PDF or DOCX)
+│── README.md            # Project documentation
+
+
+---
+
+🌐 Data Source
+
+Satellite imagery was obtained from USGS Earth Explorer:
+🔗 https://earthexplorer.usgs.gov
+
+(Raw data is not included in this repository due to size and licensing restrictions.)
+
+
+---
+
+📖 References
+
+1. McFeeters, S. K. (1996). The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features. International Journal of Remote Sensing, 17(7), 1425–1432.
+
+
+2. USGS Landsat-8 Data User Handbook.
+
+
+
+
+---
+
+Would you like me to also make a shorter LinkedIn-style version of this README (just a 3–4 line description with highlights) so you can post both GitHub + LinkedIn together?
